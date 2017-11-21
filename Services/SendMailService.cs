@@ -9,7 +9,7 @@ namespace BotMood
 
     public class SendMailService
     {
-        private static string apiKey = "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";
+        private static string apiKey = "sua chave aqui";
 
         public static async Task Send(string toMail, string toName, string subject, string body)
         {
