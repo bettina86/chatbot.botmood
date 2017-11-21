@@ -1,0 +1,241 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "BotMood",
+  "desc": "Apresentação do curriculo profisisonal via ChatBot",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "Agradecimento"
+    },
+    {
+      "name": "Ajuda"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ResetBot"
+    },
+    {
+      "name": "Saudacao"
+    },
+    {
+      "name": "Versao"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "bom dia",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "obrigado",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "boa tarde",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "olá",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "boa noite",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "tudo bem",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "ola",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "alo",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "preciso de ajuda",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "obrigada",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "ajuda",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "bla bla bla",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "triste",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "me ajude",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "pode me ajudar",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "agradecido",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "opcoes",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "opções",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "agradecida",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "grato",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "grata",
+      "intent": "Agradecimento",
+      "entities": []
+    },
+    {
+      "text": "feliz",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "teste teste",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como você funciona",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "versao",
+      "intent": "Versao",
+      "entities": []
+    },
+    {
+      "text": "versão",
+      "intent": "Versao",
+      "entities": []
+    },
+    {
+      "text": "poderia me ajuda",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "por favor gostaria de ajuda",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "por favor poderia me ajudar",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "o que devo perguntar",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "como isso funciona",
+      "intent": "Ajuda",
+      "entities": []
+    },
+    {
+      "text": "versao do produto",
+      "intent": "Versao",
+      "entities": []
+    },
+    {
+      "text": "versão do produto",
+      "intent": "Versao",
+      "entities": []
+    },
+    {
+      "text": "qna maker",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "botreset",
+      "intent": "ResetBot",
+      "entities": []
+    },
+    {
+      "text": "bot reset",
+      "intent": "ResetBot",
+      "entities": []
+    },
+    {
+      "text": "resetbot",
+      "intent": "ResetBot",
+      "entities": []
+    },
+    {
+      "text": "reset bot",
+      "intent": "ResetBot",
+      "entities": []
+    },
+    {
+      "text": "eu nao estou",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "eu estou satisfeito",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
